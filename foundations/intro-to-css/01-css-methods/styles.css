@@ -1,8 +1,11 @@
 div {
     background-color: red;
     color: white;
+    font-size: 32px;
     text-align: center;
-    font-size: xx-large;
     font-weight: bold;
-    letter-spacing: 5%;
+
+    /*My edits that differed from solution*/
+    /*font-size: xx-large;*/
+    /*letter-spacing: 5%;*/
 }
