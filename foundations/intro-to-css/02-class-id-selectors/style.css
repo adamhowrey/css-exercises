@@ -4,5 +4,8 @@
 }
 #number2 {
     color: blue;
-    font-size: 31px;
+    font-size: 2rem;
+}
+.lgFont {
+    font-size: 1.5rem;
 }
