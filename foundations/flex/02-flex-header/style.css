@@ -6,9 +6,10 @@ body {
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  min-width: 900px;
   justify-content: space-between;
   align-items: center;
-  padding: 8px;
+  padding: 8px 2px;
   border: 8px solid white;
   margin: 2% 1%;
 }
@@ -38,8 +39,8 @@ a {
   text-decoration: none;
 }
 
-.left-links {
-
+li {
+  margin: 8px;
 }
 
 
