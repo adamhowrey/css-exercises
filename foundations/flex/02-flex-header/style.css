@@ -1,15 +1,16 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  padding: 8px;
 }
 
 .logo {
   font-size: 48px;
   font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
   color: tomato;
   background: white;
   padding: 4px 32px;
@@ -19,6 +20,8 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
+  margin-left: -40px;
+
 }
 
 a {
@@ -30,5 +33,7 @@ a {
 }
 
 .left-links {
-  
+
 }
+
+
