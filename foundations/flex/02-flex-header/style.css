@@ -10,6 +10,7 @@ body {
   align-items: center;
   padding: 8px;
   border: 8px solid white;
+  margin: 2% 1%;
 }
 
 .logo {
@@ -18,7 +19,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 10px 32px 4px 32px;
 }
 
 ul {
