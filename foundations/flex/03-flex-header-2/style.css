@@ -51,8 +51,27 @@ ul {
 
 .header {
   display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 8px 0px 8px 8px;
+
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 8px 8px 8px 0px;
 }
 
 .links {
   display: flex;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
+  
 }
