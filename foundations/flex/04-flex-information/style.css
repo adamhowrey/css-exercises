@@ -25,12 +25,18 @@ img {
   background: #eee;
 }
 
+/* My solution */
+
 .title {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 .items {
   display: flex;
+  justify-content: center;
+  gap: 52px;
 }
 
 .barberry,
@@ -40,4 +46,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  width: 200px;
 }
