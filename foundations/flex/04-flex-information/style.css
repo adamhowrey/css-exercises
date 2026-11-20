@@ -25,7 +25,7 @@ img {
   background: #eee;
 }
 
-/* My solution */
+/* My solution 
 
 .title {
   display: flex;
@@ -48,4 +48,25 @@ img {
   align-items: center;
   text-align: center;
   width: 200px;
+}
+*/
+
+/* Their SOLUTION */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
 }
