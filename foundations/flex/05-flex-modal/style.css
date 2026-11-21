@@ -69,7 +69,7 @@ button.cancel {
   color: royalblue;
 }
 
-/* My solution */
+/* My solution 
 
 .modal {
   padding: 16px;
@@ -94,4 +94,31 @@ button.cancel {
 .text {
   font-size: 16px;
   margin: 8px 0px 12px 0px;
+}
+*/
+
+/* Their solution */
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+}
+/* header container should be wrapped around the button element as well in order for flex style to work */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
