@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
 }
 
 .icon {
@@ -66,4 +67,31 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* My solution */
+
+.modal {
+  padding: 16px;
+}
+
+.header {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.modal,
+.icon {
+  flex-shrink: 0;
+}
+
+.icon {
+  margin-right: 16px;
+}
+
+.text {
+  font-size: 16px;
+  margin: 8px 0px 12px 0px;
 }
